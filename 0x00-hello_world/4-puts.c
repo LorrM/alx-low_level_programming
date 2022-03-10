@@ -1,14 +1,37 @@
+/*
+
+ * File: 4-puts.c
+
+ * Auth: Brennan D Baraban <375@holbertonschool.com>
+
+ */
+
+
+
 #include <stdio.h>
+
+
 
 /**
 
- * main - prints the phrase "Programming is like building a multilingual puzzle
+ * main - Prints "Programming is like building a multilingual
 
- * Return: 0 if exited properly, non-zero otherwise
+ *                puzzle, followed by a new line.
+
+ *
+
+ * Return: Always 0.
 
  */
+
 int main(void)
+  
 {
- puts("\"Programming is like building a multilingual puzzle");
- return (0);
+  
+  puts("\"Programming is like building a multilingual puzzle");
+  
+
+  
+  return (0);
+  
 }
