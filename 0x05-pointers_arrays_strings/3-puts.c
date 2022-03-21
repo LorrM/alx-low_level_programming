@@ -1,5 +1,4 @@
 #include "main.h"
-#include <unistd.h>
 /**
  * _puts - prints a string to stdout
  * @str: value to evaluated
@@ -7,11 +6,10 @@
  */
 void _puts(char *str)
 {
-int l = 0;
-while (*(str + l) != '\0')
+int i;
+for (i = 0; str[i] != '\0'; i++)
 {
-_putchar(str[l]);
-l++;
+_putchar(str[i]);
 }
 _putchar('\n');
 }
